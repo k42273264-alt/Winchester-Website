@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const venueDetails = {
         'The Wessex Restaurant': {
-          details: 'The Wessex Restaurant offers fine dining with seasonal menus featuring locally sourced ingredients. Accommodating up to 100 guests, it’s perfect for special occasions in a refined, historic setting.'
+          details: 'The Amber Brasserie offers fine dining with seasonal menus featuring locally sourced ingredients. Accommodating up to 100 guests, it’s perfect for special occasions in a refined, historic setting.'
         }
       };
 
