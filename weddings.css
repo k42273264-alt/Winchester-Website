@@ -19,7 +19,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('Images/wed-hero.jpg');
+  background-image: url('Images/church-7744547.jpg');
   background-size: cover;
   background-position: center;
   z-index: -2;
@@ -174,7 +174,7 @@
   background: #f9f1f5;
 }
 
-/* Gallery Section */
+/* Gallery Section
 .gallery-section {
   padding: 60px 20px;
   background-color: #f9f1f5;
@@ -292,12 +292,12 @@
   font-size: 1.5rem;
   cursor: pointer;
   color: #333;
-}
+} */
 
 /* Wedding Journey Section */
 .journey-section {
   padding: 60px 20px;
-  background-color: #f8f8f8;
+  background-color: #f9f1f5;
 }
 
 .timeline-container {
