@@ -153,31 +153,43 @@
     <h2>Choose Your Stay</h2>
     <div class="rooms-filter">
       <button class="filter-btn active" data-filter="all" aria-selected="true">All</button>
-      <button class="filter-btn" data-filter="classic" aria-selected="false">Classic</button>
-      <button class="filter-btn" data-filter="superior" aria-selected="false">Superior</button>
+      <button class="filter-btn" data-filter="classic-double" aria-selected="false">Classic Double</button>
+      <button class="filter-btn" data-filter="twin" aria-selected="false">Twin</button>
+      <button class="filter-btn" data-filter="privilege" aria-selected="false">Privilege</button>
+      <button class="filter-btn" data-filter="small-double" aria-selected="false">Small Double</button>
     </div>
     <div class="rooms-container">
-      <div class="room-card" data-type="classic" data-animate>
-        <img src="Hotel images/Classic Double/Room_115-4.jpg" alt="Classic Room" loading="lazy">
-        <h3>Classic Room</h3>
-        <p>250 sqft | 1 Double Bed or 2 Single Beds</p>
-        <p>Free WiFi, Private Bathroom, Flat-Screen TV, Tea/Coffee Maker, Safe, Dog-Friendly Option</p>
-        <button class="details-btn" data-room="classic-room" aria-label="View details for Classic Room">Details</button>
+      <div class="room-card" data-type="classic-double" data-animate>
+        <img src="Hotel images/classic.jpg" alt="Classic Double Room" loading="lazy">
+        <h3>Classic Double Room</h3>
+        <p>250 sqft | 1 Double Bed</p>
+        <p>Cozy and elegant room with free WiFi, private bathroom, flat-screen TV, tea/coffee maker, safe, and dog-friendly option.</p>
+        <button class="details-btn" data-room="classic-double" aria-label="View details for Classic Double Room">Details</button>
       </div>
-      <div class="room-card" data-type="classic" data-animate>
-        <img src="Hotel images/Classic Double/Room_115-1.jpg" alt="Classic Triple Room" loading="lazy">
-        <h3>Classic Triple Room</h3>
-        <p>270 sqft | 1 Double Bed + 1 Single Bed or 3 Single Beds</p>
-        <p>Free WiFi, Private Bathroom, Flat-Screen TV, Tea/Coffee Maker, Safe, Dog-Friendly Option</p>
-        <button class="details-btn" data-room="classic-triple" aria-label="View details for Classic Triple Room">Details</button>
+      <div class="room-card" data-type="twin" data-animate>
+        <img src="Hotel images/twin.jpg" alt="Twin Room" loading="lazy">
+        <h3>Twin Room</h3>
+        <p>270 sqft | 2 Single Beds</p>
+        <p>Spacious room with twin beds, free WiFi, private bathroom, flat-screen TV, tea/coffee maker, safe, and dog-friendly option.</p>
+        <button class="details-btn" data-room="twin" aria-label="View details for Twin Room">Details</button>
       </div>
-      <div class="room-card" data-type="superior" data-animate>
-        <img src="Hotel images/Pivldge double/Room_204-2.jpg" alt="Superior Room" loading="lazy">
-        <h3>Superior Room</h3>
-        <p>350 sqft | 1 King Bed or 2 Single Beds</p>
-        <p>Free WiFi, Private Bathroom, Flat-Screen TV, Tea/Coffee Maker, Safe, Mini Bar, Bathrobe & Slippers, Dog-Friendly Option</p>
-        <button class="details-btn" data-room="superior" aria-label="View details for Superior Room">Details</button>
+      <div class="room-card" data-type="privilege" data-animate>
+        <img src="Hotel images/Pivldge double/Room_204-2.jpg" alt="Privilege Room" loading="lazy">
+        <h3>Privilege Room</h3>
+        <p>350 sqft | 1 King Bed</p>
+        <p>Luxurious room with free WiFi, private bathroom, flat-screen TV, tea/coffee maker, safe, mini bar, bathrobe, slippers, and dog-friendly option.</p>
+        <button class="details-btn" data-room="privilege" aria-label="View details for Privilege Room">Details</button>
       </div>
+      <div class="room-card" data-type="small-double" data-animate>
+        <img src="Hotel images/Classic Double/Room_115-4.jpg" alt="Small Double Room" loading="lazy">
+        <h3>Small Double Room</h3>
+        <p>200 sqft | 1 Double Bed</p>
+        <p>Compact yet comfortable room with free WiFi, private bathroom, flat-screen TV, tea/coffee maker, safe, and dog-friendly option.</p>
+        <button class="details-btn" data-room="small-double" aria-label="View details for Small Double Room">Details</button>
+      </div>
+    </div>
+</section>
+    
     </div>
     <!-- Room Details Modal -->
     <div class="modal" id="roomModal" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
